@@ -142,4 +142,3 @@ Learning Outcomes
 
 ---
 
-*This project was developed for learning and practicing full-stack web application development.*
