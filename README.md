@@ -45,7 +45,32 @@ TodoManagementSystem/
 ├── TodoBackend/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/
+│   │   │   ├── java/com/mathy/
+│   │                    └── demo/
+│   │                        ├── DemoApplication.java
+│   │                        ├── Main.java
+│   │                        ├── JwtFilter.java
+│   │                        ├── SecurityConfig.java
+│   │                        │
+│   │                        ├── controller/
+│   │                        │   ├── AuthController.java
+│   │                        │   ├── demoController.java
+│   │                        │   └── toDoController.java
+│   │                        │
+│   │                        ├── models/
+│   │                        │   ├── Todo.java
+│   │                        │   └── User.java
+│   │                        │
+│   │                        ├── repository/
+│   │                        │   ├── ToDoRepository.java
+│   │                        │   └── UserRepository.java
+│   │                        │
+│   │                        ├── service/
+│   │                        │   ├── ToDoService.java
+│   │                        │   └── UserService.java
+│   │                        │
+│   │                        └── utility/
+│   │                            └── JwtUtil.java
 │   │   │   └── resources/
 │   │   └── test/
 │   ├── pom.xml
