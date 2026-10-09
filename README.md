@@ -40,7 +40,7 @@ Tools
 * Postman
 
 Project Structure
-
+```
 TodoManagementSystem/
 ├── TodoBackend/
 │   ├── src/
@@ -57,7 +57,7 @@ TodoManagementSystem/
 │   ├── script.js
 │   └── style.css
 └── README.md
-
+```
 Prerequisites
 
 Install the following before running the project:
